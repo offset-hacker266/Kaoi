@@ -18,14 +18,14 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         if (!this.client.config.mods || !this.client.config.mods[0]) return void M.reply('*No Mods Set*')
         const filteredMap = this.client.config.mods.map((mod) => this.client.getContact(mod)).filter((user) => user)
-        let text = '🍥 *Moderators* 🍥\n\n'
+        let text = '🎐 *Moderators* 🎐\n\n'
         filteredMap.forEach(
             (user, index) =>
-                (text += `#${index + 1}\n🎫 *Username: ${
+                (text += `#${index + 1}\n🎐 *Username: ${
                     user.notify || user.vname || user.name || 'null'
-                }*\n🍀 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
+                }*\n🎀 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
         )
-        text += `\nTo deploy your own Bot or To support Kaoi👾\nVisit : https://github.com/PrajjwalDatir/Kaoi `
+        text += `\nTo deploy your own Bot or To support Offset hacker\nVisit : https://https://github.com/offset-hacker266/Kaoi `
         return void M.reply(text)
     }
 }
