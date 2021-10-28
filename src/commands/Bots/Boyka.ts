@@ -8,16 +8,16 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'rin',
+            command: 'Boyka',
             description: 'Displays the info.',
-            category: 'misc',
+            category: 'bots',
             usage: `${client.config.prefix}rin`
         })
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/Rin/rin-git.mp4'
+            './assets/Chitoge-git.mp4'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
