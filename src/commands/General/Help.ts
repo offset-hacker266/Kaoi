@@ -49,7 +49,7 @@ export default class Command extends BaseCommand {
 *╭─「 WwE 」*
 *│❏ User:* *${M.sender.username}*
 *│❏ Prefix: #*
-*│❏ Name: ʙᴇͭᴄͪᴋͤʏ ʟʏⷨɴͣᴄᷡʜ*
+*│❏ Name: 〽️Yuri Boyka 〽️*
 *│❏ Owner: use #mods*
 *╰─────────❁ཻུ۪۪⸙*
 *╚»[ʜᴀᴠᴇ ɢʀᴇᴀᴛ ᴅᴀʏ]«╝*
