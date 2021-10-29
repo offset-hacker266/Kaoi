@@ -1,7 +1,7 @@
 <div align="center">
-<a href="https://ibb.co/wQ4GK21"><img src="https://i.ibb.co/HPqwr9Q/whatsapp-botto-void-init.png" alt="whatsapp-botto-void-init" border="0"></a>
+<a href="https://ibb.co/wQ4GK21"><img src="https://user-images.githubusercontent.com/77143046/137690528-2aa28596-bf3d-443d-86a2-179badd15378.jpg
 
-# **Boyka : Next Level Void WhatsApp BOTTO**
+# **Boyka : Next Level Boyka WhatsApp BOTTO**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi/badge)](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi)
 
