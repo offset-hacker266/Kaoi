@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 (💙ω💙) Hi there! *${M.sender.username}*, I'm 〽️✿Yuri Boyka✿〽️.\n\nMy prefix is - "#"\n\nThe usable commands are listed below.\n\n`
+            let text = `👋🏻 (🌺ω🌺) Hi there Friend! *${M.sender.username}*, It's me 〽️✿Yuri Boyka✿〽️.\n\nMy prefix is - "#"\n\nThe usable commands are listed below.\n\n`
             const keys = Object.keys(categories).sort((a, b) => a.localeCompare(b))
             for (const key of keys)
                 text += ` *╚❖•*${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}* *•❖╝*\n❐ \`\`\`${categories[
@@ -49,7 +49,7 @@ export default class Command extends BaseCommand {
 *╭─「 WwE 」*
 *│❏ User:* *${M.sender.username}*
 *│❏ Prefix: #*
-*│❏ Name: ✿Yuri Boyka✿ *
+*│❏ Name: ✯Yuri Boyka✯ *
 *│❏ Owner: use #mods*
 *╰─────────❁ཻུ۪۪⸙*
 *╚»[ʜᴀᴠᴇ ɢʀᴇᴀᴛ ᴅᴀʏ]«╝*
