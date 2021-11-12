@@ -76,7 +76,7 @@ export default class MessageHandler {
         if (state) return void M.reply(`❌ This command is disabled${state.reason ? ` for ${state.reason}` : ''}`)
         if (!command.config?.dm && M.chat === 'dm') return void M.reply('Commands cannot be used in direct messages *Send a message without a prefix to have a chat*')
         if (command.config?.modsOnly && !this.client.config.mods?.includes(M.sender.jid)) {
-            return void M.reply(`Only MODS are allowed to use this command`)
+            return void M.reply(`Know your place fool ,Only the owner  of the bot is allowed to use this command`)
         }
         if (command.config?.adminOnly && !M.sender.isAdmin)
             return void M.reply(`Know your place fool ,Only admins are allowed to use this command`)
